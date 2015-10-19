@@ -1,0 +1,1 @@
+var costelloApp = angular.module('costelloApp', ['ngRoute']);
