@@ -79,11 +79,12 @@ padding-top: 20px;
 }
 
 .fa:hover{
-  color: purple;
+  color: #992900;;
 }
 i.fa {
-float: right;
-padding-left: 30px;
+  float: right;
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
 
@@ -91,13 +92,17 @@ padding-left: 30px;
 /*---------------------------------------MAIN PAGE------------------------------------------*/
 
 #musicMain{
-  background-image: url(/img/manifestArtCrop.png);
+  background-image: url(/img/manifestArtCrop2.png);
   background-size: 100%;
   /*background: no-repeat;*/
   /*height: 120%;*/
     height: auto;
     min-height: 100%;
     position: relative;
+}
+
+#main{
+  /*height: 96%;*/
 }
 
 #banner{
@@ -133,6 +138,13 @@ a.bannerLinks {
 }
 
 a.bannerLinks:hover {
-    color: purple;
+    color: #992900;
     background-color: transparent!important;
+}
+
+#footer{
+  background-color: rgba(0,0,0,.9);
+  min-height: 50px;
+  position:absolute;
+  bottom:0;
 }
