@@ -88,7 +88,6 @@ i.fa {
 }
 
 
-
 /*---------------------------------------MAIN PAGE------------------------------------------*/
 
 #musicMain{
@@ -112,6 +111,17 @@ i.fa {
   height: 110px;
   text-align: center;
 }
+
+#bannerA:hover{
+    color: #992900;
+    background-color: transparent!important;
+    text-decoration: none;
+}
+
+#bannerA:visited{
+  text-decoration: none;
+}
+
 
 #bannerText{
   /*padding-top: 30px;*/

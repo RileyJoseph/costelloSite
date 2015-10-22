@@ -16,6 +16,10 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
       templateUrl: '/views/main.html',
       controller: 'HomeController'
     })
+    .when('/contact',{
+      templateUrl: '/views/contact.html',
+      controller: 'HomeController'
+    })
     .otherwise({
       templateUrl: '/404.html'
     })
