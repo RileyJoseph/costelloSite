@@ -1,0 +1,138 @@
+#musicBackground{
+  background-image: url(/img/blackBackground.jpg);
+  height: 120%;
+}
+
+#musicTitle{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 60px;
+    color: gray;
+    letter-spacing: 24px;
+    text-transform: uppercase;
+}
+
+#musicTitle2{
+    font-family: 'Slabo 27px', serif;
+/*    margin-top: -20px;*/
+padding-top: 20px;
+    font-size: 30px;
+    color: gray;
+    letter-spacing: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#sideBar{
+  margin-top: 80px;
+  position: absolute;
+  float: left;
+  /*height: 300px;
+  border: 4px solid red;*/
+}
+
+#musicMainBody{
+  background-color: #E8D1A4;
+  background-position: center;
+  overflow: hidden;
+}
+
+#musicMainBackground{
+  background-color: #E8D1A4;
+  background-position: center;
+  }
+
+#musicAlbum{
+  display: block;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#album{
+  border: 10px;
+  border-color: red;
+  border-width: 5px;
+}
+#albumLink{
+  color: red;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#availableNow{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+#availableNow2{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.fa{
+  color: rgba(255,255,255,.7);
+}
+
+.fa:hover{
+  color: purple;
+}
+i.fa {
+float: right;
+padding-left: 30px;
+}
+
+
+
+/*---------------------------------------MAIN PAGE------------------------------------------*/
+
+#musicMain{
+  background-image: url(/img/manifestArtCrop.png);
+  background-size: 100%;
+  /*background: no-repeat;*/
+  /*height: 120%;*/
+    height: auto;
+    min-height: 100%;
+    position: relative;
+}
+
+#banner{
+  margin-top: 100px;
+  margin-left: -20px;
+  background-color: rgba(0,0,0,.6);
+  height: 110px;
+  text-align: center;
+}
+
+#bannerText{
+  /*padding-top: 30px;*/
+  font-size: 80px;
+  letter-spacing: -8px;
+  font-family: 'Megrim', cursive;
+  color: white;
+
+}
+
+#bannerLinks{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  text-align: left;
+}
+
+a.bannerLinks {
+  text-decoration: none;
+  /*color:purple;*/
+  color: white;
+}
+
+a.bannerLinks:hover {
+    color: purple;
+    background-color: transparent!important;
+}
