@@ -8,7 +8,7 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
       templateUrl: '/home.html',
       controller:  'HomeController'
     })
-    .when('/albumPage',{
+    .when('/splash',{
       templateUrl: '/views/splash.html',
       controller: 'HomeController'
     })

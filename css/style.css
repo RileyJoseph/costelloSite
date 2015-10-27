@@ -75,7 +75,7 @@ padding-top: 20px;
 }
 
 .fa{
-  color: rgba(255,255,255,.7);
+  color: #bfbfbf;
 }
 
 .fa:hover{
@@ -89,6 +89,14 @@ i.fa {
 
 
 /*---------------------------------------MAIN PAGE------------------------------------------*/
+
+html{
+  max-height: 100%;
+}
+
+body{
+  max-height: 100%
+}
 
 #musicMain{
   background-image: url(/img/manifestArtCrop2.png);
@@ -104,8 +112,14 @@ i.fa {
   /*height: 96%;*/
 }
 
+#mainBody{
+  max-height: 90%;
+  /*min-height: 80%;*/
+  overflow: scroll;
+}
+
 #banner{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: -20px;
   background-color: rgba(0,0,0,.6);
   height: 110px;
@@ -124,27 +138,37 @@ i.fa {
 
 
 #bannerText{
-  /*padding-top: 30px;*/
-  font-size: 80px;
-  letter-spacing: -8px;
-  font-family: 'Megrim', cursive;
-  color: white;
+  font-size: 70px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  /*letter-spacing: -8px;*/
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  /*font-weight: lighter;*/
+}
 
+@font-face {
+    font-family: 'Majesti-Banner-Medium';
+    src: url("fonts/Majesti-Banner-Medium.otf");
+    font-family: 'Majesti-Banner-BoldItalic.otf';
+    src: url("Majesti-Banner-BoldItalic.otf");
+    font-family: 'accent';
+    src: url("fonts/accent.ttf");
 }
 
 #bannerLinks{
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 16px;
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
-  text-align: left;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  /*text-align: right;*/
 }
 
 a.bannerLinks {
   text-decoration: none;
   /*color:purple;*/
-  color: white;
+  color: #bfbfbf;
 }
 
 a.bannerLinks:hover {
