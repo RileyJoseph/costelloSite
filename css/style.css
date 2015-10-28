@@ -81,6 +81,7 @@ padding-top: 20px;
 .fa:hover{
   color: #992900;;
 }
+
 i.fa {
   float: right;
   padding-left: 15px;
@@ -181,4 +182,99 @@ a.bannerLinks:hover {
   min-height: 50px;
   position:absolute;
   bottom:0;
+  width: 100%;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  #bannerText{
+    font-size: 40px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+  }
+
+  #bannerLinks{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  /*text-align: right;*/
+  }
+}
+
+
+@media (max-width: 930px) {
+
+  #bannerText{
+    font-size: 40px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+  }
+
+  #bannerLinks{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  /*text-align: right;*/
+  }
+
+
+}
+
+@media (max-width: 970px) {
+
+  #bannerText{
+    font-size: 40px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #bannerLinks{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  /*text-align: right;*/
+  }
+
+  #banner{
+    height: 80px;
+  }
+
+
+}
+
+@media (max-width: 1100px) {
+
+  #bannerText{
+    font-size: 40px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #bannerLinks{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  /*text-align: right;*/
+  }
+
+  #banner{
+    height: 80px;
+  }
+
+
 }
