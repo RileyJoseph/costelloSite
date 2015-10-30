@@ -32,9 +32,13 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
 
 costelloApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
 
+$(document).ready(function(){
+    $(".navbar-toggle").click(function(){
+        $(".collapse").collapse('toggle');
+    });
 
-  // $('.collapse').collapse()
 
+});
 
   console.log($location.path());
 
