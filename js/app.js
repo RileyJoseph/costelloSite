@@ -8,8 +8,8 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
       templateUrl: '/home.html',
       controller:  'HomeController'
     })
-    .when('/splash',{
-      templateUrl: '/views/splash.html',
+    .when('/about',{
+      templateUrl: '/views/about.html',
       controller: 'HomeController'
     })
     .when('/main',{
@@ -31,6 +31,10 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
 
 
 costelloApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
+
+
+  // $('.collapse').collapse()
+
 
   console.log($location.path());
 
