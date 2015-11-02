@@ -39,8 +39,6 @@ costelloApp.controller('HomeController', ['$scope','$location', function($scope,
 $(document).ready(function(){
     $(".navbar-toggle").click(function(){
         $(".collapse").collapse('toggle');
-
-
     });
 
     $('.carousel').carousel()
