@@ -21,7 +21,7 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
       controller: 'HomeController'
     })
     .when('/images',{
-      templateUrl: '/views/images.html',
+      templateUrl: '/views/splash.html',
       controller: 'HomeController'
     })
     .otherwise({

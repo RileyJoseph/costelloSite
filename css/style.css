@@ -1,6 +1,7 @@
 #musicBackground{
-  background-image: url(/img/blackBackground.jpg);
-  height: 120%;
+/*  background-image: url(/img/blackBackground.jpg);
+*/  height: 120%;
+  background-color: white;
 }
 
 #musicTitle{
@@ -44,14 +45,46 @@ padding-top: 20px;
 
 #musicAlbum{
   display: block;
+  vertical-align: middle;
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
+.mainLinks{
+  text-align: center;
+  color: black;
+}
+@font-face {
+  font-family: 'KeeponTruckin';
+  src:
+      local('fonts/keep_on_truckin_fw/KeeponTruckin.ttf'),
+      url('fonts/keep_on_truckin_fw/KeeponTruckin.ttf'),
+      url('KeeponTruckin.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('KeeponTruckin.ttf') format('woff2'), /* Super Modern Browsers */
+       url('KeeponTruckin.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('KeeponTruckin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('KeeponTruckin.ttf') format('svg'); /* Legacy iOS */
+}
+
+a.links{
+  display: inline;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'KeeponTruckin', Fallback, sans-serif;
+  font-size: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+a.links:hover{
+  color: #838e74;
+  text-decoration: none;
+}
 
 #album{
   border: 10px;
-  border-color: red;
+  /*border-color: red;*/
   border-width: 5px;
 }
 #albumLink{
@@ -79,7 +112,7 @@ padding-top: 20px;
 }
 
 .fa:hover{
-  color: #B22222;;
+  color: #838e74;;
 }
 
 i.fa {
@@ -204,7 +237,7 @@ p#bannerText2 {
 }
 
 #aboutMain{
-  background-image: url(/img/manifestArtCrop2.png);
+  /*background-image: url(/img/manifestArtCrop2.png);*/
   /*background: cover;*/
   height: auto;
   min-height: 150%;
@@ -214,7 +247,7 @@ p#bannerText2 {
 }
 
 #about{
-  /*background-image: url("../img/manifestArt.");*/
+  /*background-color:black;*/
   min-height: 80%;
   padding-top: 30px;
   color: #bfbfbf;
