@@ -50,6 +50,14 @@ padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+#musicSingle{
+  padding-left: auto;
+  display: block;
+  vertical-align: middle;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .mainLinks{
   text-align: center;
   color: black;
@@ -87,7 +95,7 @@ a.links:hover{
   /*border-color: red;*/
   border-width: 5px;
   /*padding-bottom: 300px;*/
-  height: 100%;
+  height: 90%;
 }
 #albumLink{
   color: red;
@@ -224,7 +232,17 @@ p#bannerText2 {
   padding-left: 0px;
   padding-right: 0px;
 }
+#singleSection{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
 
+iframe{
+  border: 0; 
+  width: 350px; 
+  height: 442px;
+} 
 
 #aboutMain{
   height: auto;
@@ -237,12 +255,12 @@ p#bannerText2 {
 
 #aboutSection{
   /*background-color: black;*/
+  height: 90%;
 }
 
 #about{
   /*background-color:black;*/
   min-height: 50%;
-  padding-top: 30px;
   padding-right: 10px;
   padding-left: 10px;
   color: black;
@@ -287,10 +305,14 @@ p#bannerText2 {
   padding-right: 0px;
 }
 
-/*p.textCenter{
+.textCenter{
   text-align: center;
 }
-*/
+
+#center{
+  float: none;
+}
+
 p.textRight{
   text-align: right;
 }
@@ -417,7 +439,8 @@ div#footerLeft{
 }
 
 #footer{
-  background-color: rgba(0,0,0,.9);
+  background-image: url(/img/cartographer.png);
+  /*background-color: rgba(0,0,0,.9);*/
   min-height: 50px;
   /*position:absolute;*/
   bottom:0;
