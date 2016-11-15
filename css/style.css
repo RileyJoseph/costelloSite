@@ -86,6 +86,8 @@ a.links:hover{
   border: 10px;
   /*border-color: red;*/
   border-width: 5px;
+  /*padding-bottom: 300px;*/
+  height: 100%;
 }
 #albumLink{
   color: red;
@@ -223,39 +225,45 @@ p#bannerText2 {
   padding-right: 0px;
 }
 
-#mainBody{
-  /*overflow: scroll;*/
-}
 
 #aboutMain{
   height: auto;
   min-height: 150%;
 }
+#mainBody{
+  /*overflow: scroll;*/
+  padding-top: 60px;
+}
+
+#aboutSection{
+  /*background-color: black;*/
+}
 
 #about{
   /*background-color:black;*/
-  min-height: 80%;
-  margin-top: 100px;
+  min-height: 50%;
   padding-top: 30px;
-  color: #bfbfbf;
-  font-family:'Majesti-Banner-Medium';
-  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+font-family: 'Roboto Condensed', sans-serif;
+  /*text-align: center;*/
   background-size: 100%;
 }
 
 #aboutTitle h1{
-  margin-top: 300px;
+  /*margin-top: 300px;*/
   text-align: center;
   font-family: 'KeeponTruckin';
   font-size: 70px;
   padding-top: 15px;
+  color: black;
 }
 
 #aboutImg{
   display: block;
   text-align: center;
   width: 80%;
-  margin-top: 100px;
   margin-bottom: 5px;
   padding-bottom: 5px;
   margin-left: auto;
@@ -276,6 +284,10 @@ p#bannerText2 {
   min-height: 140%;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+p.textRight{
+  text-align: right;
 }
 
 #mainImg{
@@ -322,7 +334,7 @@ h2{
 }
 
 p{
-  color: #222222;
+  /*color: #222222;*/
   font-size: 20px;
 }
 
