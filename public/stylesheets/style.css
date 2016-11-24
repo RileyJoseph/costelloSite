@@ -484,6 +484,10 @@ div#footerLeft{
     height: 10px!important;
   }
 
+  #about{
+      padding-top: 15px;
+    }
+
 }
 
 
@@ -578,9 +582,11 @@ div#footerLeft{
 @media (max-width: 970px) {
 
 
+  #about p{
+    padding-top: 15px;
+  }
 
-
-    #navLeft{
+  #navLeft{
     /*padding-left: 38%;*/
   }
 
